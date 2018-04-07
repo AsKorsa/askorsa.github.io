@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('../images/brickwall.png');
+}
+header{
+	height: 80px;
+}
+h1{
+	text-align: center;
+	color: #000A47;
+	line-height: 80px;
+	font-style: oblique;
+}
+nav{
+	height: 40px;
+	background: #D0D0D0;
+}
+nav a{
+	text-decoration: none;
+	margin: 10px;
+	line-height: 40px;
+	font-size: 14pt;
+	color: #000A47;
+}
+main{
+	min-height: 500px;
+}
+.vid{
+	margin: 0 auto;
+}
+video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.aud img{
+	width: 300px;
+}
+audio{
+	width: 300px;
+}
+.aud{
+	float: left;
+	margin-right: 20px;
+}
+.audiotext{
+	text-align: justify;
+	margin-right: 20px;
+}
+.descript{
+	text-align: justify;
+}
+button{
+	width: 150px;
+	height: 30px;
+	background: #B9DCFF;
+	border-radius: 10px;
+	box-shadow: 10px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+button a{
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+}
+p{
+	margin-left: 20px;
+	text-indent: 2em;
+	text-align: justify;
+}
+table{
+	margin: 0 auto;
+}
+form{
+	line-height: 2;
+}
+.left{
+	text-align: right;
+}
+footer{
+	height: 80px;
+	background: #C0C0C0;
+	overflow: hiden;
+	margin-bottom: 0;
+	margin-top: 50%;
+}
+footer{
+	line-height: 80px;
+	text-align: center;
+}
